@@ -1,0 +1,21 @@
+.env
+/mysql-8/data/**
+!/mysql-8/data/.gitkeep
+/mysql-8/dump/**
+!/mysql-8/dump/.gitkeep
+/mysql/logs/**
+/.ssh/**
+!/.ssh/.gitkeep
+/redis/data/**
+!/redis/data/.gitkeep
+/nginx/logs/**
+!/nginx/logs/.gitkeep
+
+# Файлы web-проектов
+/projects/**
+!/projects/.gitkeep
+
+
+# Другие файлы
+.idea/
+.DS_Store
